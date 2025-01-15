@@ -56,14 +56,13 @@ window.addEventListener('scroll', () => {
 /* Switching words functionality */
 document.addEventListener("DOMContentLoaded", function () {
     const words = [
-        "رحلات سياحية",
-        "تايلاند",
-        "اذربيجان",
-        "لندن",
-        "موسكو",
+        "عروض مشهد",
+        "سوتشي",
+        "طرابزون",
         "اسطنبول",
-        "دبي",
         "عروض سياحية",
+        "لجميع الميزانيات",
+        "رحلات سياحية",
     ];
 
     let currentIndex = 1;
@@ -222,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             let botResponse = `
                 <div class="chat response">
-                    <img src="https://mohammed-website.github.io/alshaikhtravel/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A-%D8%A8%D8%AD%D8%B1%D9%8A%D9%86%D9%8A.png">
+                    <img src="https://mohammed-website.github.io/sikkatravel/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A-%D8%A8%D8%AD%D8%B1%D9%8A%D9%86%D9%8A.png">
                     <span class="new">...</span>
                 </div>
             `;
@@ -344,40 +343,99 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+
 // create all offers content functionality
 const sectionData = [
+
     {
-        title: 'عروض تايلاند',
-        image_1: ['عروض-شركة-الشيخ/عروض-تايلاند/عرض-تايلاند-1.jpg', 'الرحلات الفردية'],
+        title: 'عروض سريلانكا',
+        main_image_1: {
+            mainSrc: 'عروض-شركة-الشيخ/عروض-سريلانكا-1/عرض-سريلانكا-1.jpg',
+            subImages: [
+                'عروض-شركة-الشيخ/عروض-سريلانكا-1/عرض-سريلانكا-1-تفاصيل-1.jpg',
+                'عروض-شركة-الشيخ/عروض-سريلانكا-1/عرض-سريلانكا-1-تفاصيل-2.jpg',
+                'عروض-شركة-الشيخ/عروض-سريلانكا-1/عرض-سريلانكا-1-تفاصيل-3.jpg',
+                'عروض-شركة-الشيخ/عروض-سريلانكا-1/عرض-سريلانكا-1-تفاصيل-4.jpg',
+                'عروض-شركة-الشيخ/عروض-سريلانكا-1/عرض-سريلانكا-1-تفاصيل-5.jpg',
+                'عروض-شركة-الشيخ/عروض-سريلانكا-1/عرض-سريلانكا-1-تفاصيل-6.jpg',
+            ],
+            text: 'عرض سريلانكا - بشرى - مدينة الرضا - هاني باريس',
+        },
     },
 
     {
-        title: 'عروض اذربيجان',
-        image_1: ['عروض-شركة-الشيخ/عروض-اذربيجان/عرض-اذربيجان-1.jpg', 'الرحلات الجماعية'],
+        title: 'عروض سوتشي',
+        main_image_1: {
+            mainSrc: 'عروض-شركة-سكة/عروض-سوتشي-1/عرض-سوتشي-1.jpg',
+            subImages: [
+                'عروض-شركة-سكة/عروض-سوتشي-1/عرض-سوتشي-1-تفاصيل-1.jpg',
+                'عروض-شركة-سكة/عروض-سوتشي-1/عرض-سوتشي-1-تفاصيل-2.jpg',
+                'عروض-شركة-سكة/عروض-سوتشي-1/عرض-سوتشي-1-تفاصيل-3.jpg',
+            ],
+            text: 'عرض سوتشي - روسيا',
+        },
+
+        main_image_2: {
+            mainSrc: 'عروض-شركة-سكة/عروض-سوتشي-2/عرض-سوتشي-2.jpg',
+            subImages: [
+                'عروض-شركة-سكة/عروض-سوتشي-2/عرض-سوتشي-2-تفاصيل-1.jpg',
+                'عروض-شركة-سكة/عروض-سوتشي-2/عرض-سوتشي-2-تفاصيل-2.jpg',
+                'عروض-شركة-سكة/عروض-سوتشي-2/عرض-سوتشي-2-تفاصيل-3.jpg',
+            ],
+            text: 'عرض سوتشي - روسيا',
+        },
+
+        main_image_3: {
+            mainSrc: 'عروض-شركة-سكة/عروض-سوتشي-3/عرض-سوتشي-3.jpg',
+            subImages: [
+                'عروض-شركة-سكة/عروض-سوتشي-3/عرض-سوتشي-3-تفاصيل-1.jpg',
+                'عروض-شركة-سكة/عروض-سوتشي-3/عرض-سوتشي-3-تفاصيل-2.jpg',
+                'عروض-شركة-سكة/عروض-سوتشي-3/عرض-سوتشي-3-تفاصيل-3.jpg',
+            ],
+            text: 'عرض سوتشي - روسيا',
+        },
     },
-    
+
     {
-        title: 'عروض لندن',
-        image_1: ['عروض-شركة-الشيخ/عروض-لندن/عرض-لندن-1.jpg', 'الرحلات الفردية'],
+        title: 'عروض طرابزون',
+        main_image_1: {
+            mainSrc: 'عروض-شركة-سكة/عروض-طرابزون-1/عرض-طرابزون-1.jpg',
+            subImages: [
+                'عروض-شركة-سكة/عروض-طرابزون-1/عرض-طرابزون-1-تفاصيل-1.jpg',
+                'عروض-شركة-سكة/عروض-طرابزون-1/عرض-طرابزون-1-تفاصيل-2.jpg',
+                'عروض-شركة-سكة/عروض-طرابزون-1/عرض-طرابزون-1-تفاصيل-3.jpg',
+            ],
+            text: 'عرض خاص طرابزون - 8 أيام',
+        },
+
+        main_image_2: {
+            mainSrc: 'عروض-شركة-سكة/عروض-طرابزون-2/عرض-طرابزون-2.jpg',
+            subImages: [
+                'عروض-شركة-سكة/عروض-طرابزون-2/عرض-طرابزون-2-تفاصيل-1.jpg',
+                'عروض-شركة-سكة/عروض-طرابزون-2/عرض-طرابزون-2-تفاصيل-2.jpg',
+                'عروض-شركة-سكة/عروض-طرابزون-2/عرض-طرابزون-2-تفاصيل-3.jpg',
+            ],
+            text: 'عرض طرابزون - 8 أيام',
+        },
     },
-
-
-    {
-        title: 'عروض موسكو',
-        image_1: ['عروض-شركة-الشيخ/عروض-موسكو/عرض-موسكو-1.jpg', 'الرحلات الفردية'],
-    },
-
 
     {
         title: 'عروض اسطنبول',
-        image_1: ['عروض-شركة-الشيخ/عروض-اسطنبول/عرض-اسطنبول-1.jpg', 'الرحلات الفردية'],
+        main_image_1: {
+            mainSrc: 'عروض-شركة-سكة/عروض-اسطنبول-1/عرض-اسطنبول-1.jpg',
+            subImages: [
+                'عروض-شركة-سكة/عروض-اسطنبول-1/عرض-اسطنبول-1-تفاصيل-1.jpg',
+                'عروض-شركة-سكة/عروض-اسطنبول-1/عرض-اسطنبول-1-تفاصيل-2.jpg',
+                'عروض-شركة-سكة/عروض-اسطنبول-1/عرض-اسطنبول-1-تفاصيل-3.jpg',
+            ],
+            text: 'عرض اسطنبول - 8 أيام',
+        },
     },
 
-    {
-        title: 'عروض دبي',
-        image_1: ['عروض-شركة-الشيخ/عروض-دبي/عرض-دبي-1.jpg', 'الرحلات الفردية'],
-    },
 ];
+
+
 
 // Function to dynamically create the section
 function createScrollableCardsSection(dataArray) {
@@ -399,16 +457,16 @@ function createScrollableCardsSection(dataArray) {
 
         // Loop through the images and create cards
         Object.keys(data).forEach((key) => {
-            if (key.startsWith('image_')) {
-                const [src, text] = data[key];
+            if (key.startsWith('main_image')) {
+                const { mainSrc, subImages, text } = data[key];
 
                 const card = document.createElement('div');
                 card.className = 'scrollable_card';
 
                 const img = document.createElement('img');
-                img.src = src;
+                img.src = mainSrc; // Display the main image as the thumbnail
                 img.alt = text;
-                img.addEventListener('click', () => openFullScreenImage(src, text)); // Pass text to full-screen function
+                img.addEventListener('click', () => openFullScreenImage(mainSrc, subImages, text)); // Pass mainSrc and subImages
                 card.appendChild(img);
 
                 scrollableRow.appendChild(card);
@@ -420,41 +478,55 @@ function createScrollableCardsSection(dataArray) {
     });
 }
 
-function openFullScreenImage(src, text) {
-
+function openFullScreenImage(mainSrc, subImages, text) {
     // Disable document scrolling
     document.body.style.overflow = 'hidden';
 
-
-    /* Create the sull screen container div */
+    // Create the full-screen container div
     const fullScreenDiv = document.createElement('div');
     fullScreenDiv.className = 'full_screen_container';
 
     // Add animation class for fade-in effect
     setTimeout(() => fullScreenDiv.classList.add('visible'), 10);
 
+    // Create the exit button
     const exitButton = document.createElement('button');
     exitButton.innerText = 'عودة';
     exitButton.className = 'exit_button';
     exitButton.addEventListener('click', closeFullScreenImage);
     fullScreenDiv.appendChild(exitButton);
 
+    // Create the title
     const title = document.createElement('h2');
     title.innerText = text;
     title.className = 'full_screen_title';
     fullScreenDiv.appendChild(title);
 
-    // Full-screen image
-    const fullScreenImage = document.createElement('img');
-    fullScreenImage.src = src;
-    fullScreenImage.className = 'full_screen_image';
-    fullScreenDiv.appendChild(fullScreenImage);
+    // Create the scrollable images container
+    const imagesContainer = document.createElement('div');
+    imagesContainer.className = 'scrollable_images_container';
 
-    // WhatsApp button
+    // Add mainSrc as the first image
+    const mainImage = document.createElement('img');
+    mainImage.src = mainSrc;
+    mainImage.className = 'scrollable_image';
+    imagesContainer.appendChild(mainImage);
+
+    // Add subImages
+    subImages.forEach((subSrc) => {
+        const subImg = document.createElement('img');
+        subImg.src = subSrc;
+        subImg.className = 'scrollable_image';
+        imagesContainer.appendChild(subImg);
+    });
+
+    fullScreenDiv.appendChild(imagesContainer);
+
+    // Create the WhatsApp button
     const whatsappButton = document.createElement('a');
     whatsappButton.className = 'whatsapp_button';
     whatsappButton.innerText = 'إرسال هذا العرض';
-    whatsappButton.href = `https://wa.me/+97338227779?text=طلب%20حجز%20هذا%20العرض:%0A%0Ahttps://mohammed-website.github.io/alshaikhtravel/${encodeURIComponent(src)}`;
+    whatsappButton.href = `https://wa.me/+97338811136?text=طلب%20حجز%20هذا%20العرض:%0A%0Ahttps://mohammed-website.github.io/sikkatravel/${encodeURIComponent(mainSrc)}`;
     fullScreenDiv.appendChild(whatsappButton);
 
     // Close on background click
@@ -468,14 +540,18 @@ function openFullScreenImage(src, text) {
     function closeFullScreenImage() {
         fullScreenDiv.classList.remove('visible'); // Trigger fade-out
         setTimeout(() => fullScreenDiv.remove(), 300); // Remove element after fade-out
-
-        
         document.body.style.overflow = ''; // Re-enable document scrolling
     }
 }
 
+
 // Call the function with the sample data
 createScrollableCardsSection(sectionData);
+
+
+
+
+
 
 
 
@@ -516,13 +592,13 @@ let mughader_commentsArray = [
     {
         profileLetter: "D",
         personName: "Dal8800 دال للعقارات",
-        comment: "شكرا شركة الشيخ على اتقانكم  بالعمل وعلى خدمتكم الجميله بارك الله فيكم وفي جهودكم الى الاعلى بإذن",
+        comment: "شكرا شركة سكة على اتقانكم  بالعمل وعلى خدمتكم الجميله بارك الله فيكم وفي جهودكم الى الاعلى بإذن",
         stars: 5
     },
     {
         profileImage: "https://mughader.com/مكتب-للسفر-والسياحة/مكتب-للسفر-والسياحة-3.png",
         personName: "ناصر الهزاع",
-        comment: "اشكر طاقم شركة الشيخ على تعاملهم معي يستاهلو كل خير ♥️♥️",
+        comment: "اشكر طاقم شركة سكة على تعاملهم معي يستاهلو كل خير ♥️♥️",
         stars: 5
     },
     {
@@ -546,19 +622,19 @@ let mughader_commentsArray = [
     {
         profileLetter: "ن",
         personName: "ناصر الموسى",
-        comment: "نشكر شركة الشيخ على جهوده وتمنى له دائم التوفيق و والــــنــــجـــــاح",
+        comment: "نشكر شركة سكة على جهوده وتمنى له دائم التوفيق و والــــنــــجـــــاح",
         stars: 5
     },
     {
         profileLetter: "H",
         personName: "Hala Abdullah",
-        comment: "من افضل واحسن الي تعاملت معهم للامانة ولا غلطة والاسعار حلوه جدا ومعقولة مرا شككككرا  شركة الشيخ للسياحة 💛🙏🏻",
+        comment: "من افضل واحسن الي تعاملت معهم للامانة ولا غلطة والاسعار حلوه جدا ومعقولة مرا شككككرا  شركة سكة للسياحة 💛🙏🏻",
         stars: 5
     },
     {
         profileLetter: "س",
         personName: "سامي الموسى",
-        comment: "صراحه مجهود يشكر عليه من شركة الشيخ للسفر والسياحة ومن افضل الشركات الي حريصه علئ ادق التفاصيل شركه تلبي جميع احتيجاتك وعن تجربه اتكلم صراحه تعاملهم جدا راقي بجميع الاماكن والاوقات ❤️❤️",
+        comment: "صراحه مجهود يشكر عليه من شركة سكة للسفر والسياحة ومن افضل الشركات الي حريصه علئ ادق التفاصيل شركه تلبي جميع احتيجاتك وعن تجربه اتكلم صراحه تعاملهم جدا راقي بجميع الاماكن والاوقات ❤️❤️",
         stars: 5
     },
 ];
@@ -582,8 +658,8 @@ function mughader_generateComments(comments) {
             // Use an image if profileImage is provided
             let img = document.createElement("img");
             img.src = profileImage;
-            img.alt = `مكتب سياحي - شركة الشيخ`;
-            img.title = `مكتب سياحي - شركة الشيخ`;
+            img.alt = `مكتب سياحي - شركة سكة`;
+            img.title = `مكتب سياحي - شركة سكة`;
             profilePicture.appendChild(img);
         } else if (profileLetter) {
             // Use the profile letter if no image is provided
@@ -695,11 +771,51 @@ openWhatsAppNumber = function () {
 
     insertNewClick('alseef.com');
 
-    const whatsappNumber = "+97338227779";
+    const whatsappNumber = "+97338811136";
     const message = encodeURIComponent('سلام عليكم ورحمة الله وبركاته'); // Optional pre-filled message
     const url = `https://wa.me/${whatsappNumber}?text=${message}`;
     window.open(url, "_blank"); // Opens in a new tab
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
