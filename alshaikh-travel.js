@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             let botResponse = `
                 <div class="chat response">
-                    <img src="https://mohammed-website.github.io/sikkatravel/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A-%D8%A8%D8%AD%D8%B1%D9%8A%D9%86%D9%8A.png">
+                    <img src="https://mohammed-website.github.io/alshaikhtravel/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A/%D9%85%D9%83%D8%AA%D8%A8-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A-%D8%A8%D8%AD%D8%B1%D9%8A%D9%86%D9%8A.png">
                     <span class="new">...</span>
                 </div>
             `;
@@ -540,7 +540,7 @@ function openFullScreenImage(mainSrc, subImages, text) {
     const whatsappButton = document.createElement('a');
     whatsappButton.className = 'whatsapp_button';
     whatsappButton.innerText = 'إرسال هذا العرض';
-    whatsappButton.href = `https://wa.me/+97338811136?text=طلب%20حجز%20هذا%20العرض:%0A%0Ahttps://mohammed-website.github.io/sikkatravel/${encodeURIComponent(mainSrc)}`;
+    whatsappButton.href = `https://wa.me/+97338227779?text=طلب%20حجز%20هذا%20العرض:%0A%0Ahttps://mohammed-website.github.io/alshaikhtravel/${encodeURIComponent(mainSrc)}`;
     fullScreenDiv.appendChild(whatsappButton);
 
     // Close on background click
@@ -785,7 +785,7 @@ openWhatsAppNumber = function () {
 
     insertNewClick('alseef.com');
 
-    const whatsappNumber = "+97338811136";
+    const whatsappNumber = "+97338227779";
     const message = encodeURIComponent('سلام عليكم ورحمة الله وبركاته'); // Optional pre-filled message
     const url = `https://wa.me/${whatsappNumber}?text=${message}`;
     window.open(url, "_blank"); // Opens in a new tab
